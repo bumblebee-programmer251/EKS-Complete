@@ -173,7 +173,7 @@ subjects:
 
 [Create Token](https://kubernetes.io/docs/reference/access-authn-authz/service-accounts-admin/#:~:text=To%20create%20a%20non%2Dexpiring,with%20that%20generated%20token%20data.)
 
-'''
+'''yaml
 apiVersion: v1
 kind: Secret
 type: kubernetes.io/service-account-token
